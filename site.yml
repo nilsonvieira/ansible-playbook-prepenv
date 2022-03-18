@@ -4,3 +4,4 @@
   hosts: remote
   roles:
     - default
+    - ansible-role-hashicorp

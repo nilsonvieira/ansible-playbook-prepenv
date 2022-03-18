@@ -1,4 +1,4 @@
 ---
-- src: git@github.com:nilsonvieira/<REPO>.git
+- src: git@github.com:nilsonvieira/ansible-role-hashicorp.git
   scm: git
-  name: <NOME DA ROLE>
+  name: ansible-role-hashicorp
