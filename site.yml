@@ -6,3 +6,4 @@
     - default
     - ansible-role-hashicorp
     - ansible-role-docker
+    - ansible-role-wireguardclient

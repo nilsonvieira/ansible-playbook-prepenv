@@ -6,3 +6,8 @@
 - src: git@github.com:nilsonvieira/ansible-role-docker.git
   scm: git
   name: ansible-role-docker
+
+
+- src: git@github.com:nilsonvieira/ansible-role-wireguardclient.git
+  scm: git
+  name: ansible-role-wireguardclient
