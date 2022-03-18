@@ -23,4 +23,6 @@
       - code
       - wireshark
       - virtualbox
+      - virtualbox-ext-pack
+      - virtualbox-guest-additions-iso
       - nmap
