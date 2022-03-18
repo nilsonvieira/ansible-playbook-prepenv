@@ -2,3 +2,7 @@
 - src: git@github.com:nilsonvieira/ansible-role-hashicorp.git
   scm: git
   name: ansible-role-hashicorp
+
+- src: git@github.com:nilsonvieira/ansible-role-docker.git
+  scm: git
+  name: ansible-role-docker

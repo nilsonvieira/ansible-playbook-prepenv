@@ -5,3 +5,4 @@
   roles:
     - default
     - ansible-role-hashicorp
+    - ansible-role-docker
