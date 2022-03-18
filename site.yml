@@ -1,0 +1,6 @@
+- name: Principal Menu
+  become: true
+  become_method: sudo
+  hosts: remote
+  roles:
+    - default

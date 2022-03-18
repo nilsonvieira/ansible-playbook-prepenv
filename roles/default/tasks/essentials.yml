@@ -1,0 +1,25 @@
+---
+- name: Upgrade Apt Packages
+  apt:
+    upgrade: dist
+    force_apt_get: yes
+
+- name: "Instalar Pacotes Necessários"
+  apt:
+    name: "{{ packages }}"
+    state: present
+    update_cache: yes
+  vars:
+    packages:
+      - vim
+      - curl
+      - wget
+      - remmina
+      - zenity
+      - flameshot
+      - alacarte
+      - htop
+      - transmission
+      - code
+      - wireshark
+      - virtualbox

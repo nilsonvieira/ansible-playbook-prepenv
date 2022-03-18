@@ -1,0 +1,4 @@
+---
+- src: git@github.com:nilsonvieira/<REPO>.git
+  scm: git
+  name: <NOME DA ROLE>
