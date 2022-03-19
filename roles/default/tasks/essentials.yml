@@ -4,7 +4,7 @@
     upgrade: dist
     force_apt_get: yes
 
-- name: "Instalar Pacotes Necessários"
+- name: "Install Needed Packs"
   apt:
     name: "{{ packages }}"
     state: present

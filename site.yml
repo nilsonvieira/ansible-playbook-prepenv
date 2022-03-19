@@ -5,5 +5,5 @@
   roles:
     - default
     - ansible-role-hashicorp
-    - ansible-role-docker
     - ansible-role-wireguardclient
+    - ansible-role-docker
