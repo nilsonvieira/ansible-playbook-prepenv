@@ -1,0 +1,29 @@
+---
+- name: Remove EDGE evict conflicts
+  apt:
+    pkg: microsoft-edge-stable
+    state: absent
+
+- name: Install a .deb package Dbeaver
+  apt:
+    deb: /tmp/dbeaver.deb
+
+- name: Install a .deb package discord
+  apt:
+    deb: /tmp/discord.deb
+
+- name: Install a .deb package Chrome
+  apt:
+    deb: /tmp/chrome.deb
+
+- name: Install a .deb package Insomnia
+  apt:
+    deb: /tmp/insomnia.deb
+
+- name: Install a .deb package Microsoft Edge
+  apt:
+    deb: /tmp/edge.deb
+
+- name: Install a .deb package WebApp Manager
+  apt:
+    deb: /tmp/webapp.deb

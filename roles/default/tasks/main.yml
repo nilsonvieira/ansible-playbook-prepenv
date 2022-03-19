@@ -1,3 +1,14 @@
 ---
 - name: Install Default Needed Packs
   include: essentials.yml
+
+- name: Copy deb and bin files
+  copy:
+    src: "{{ item }}"
+    dest: /tmp
+    mode: 0755
+  with_fileglob:
+    - "files/*"
+
+- name: Install Default deb Packs
+  include: deb.yml
